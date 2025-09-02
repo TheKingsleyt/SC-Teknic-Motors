@@ -3,7 +3,7 @@ Access the SC controllers,
 In order to run the Code on ROS1. You need Linux OS
 2 ways you can accmoplish it:
 1. Change your laptop into Linux
-2. Download : https://www.virtualbox.org/wiki/Downloads( Download Windows Host)
+2. Download : https://www.virtualbox.org/wiki/Downloads (Download Windows Host)
 3. Ubuntu 20.04 or less is compabile to ROS1, Where as Ubuntu 22.04+ compablite to ROS2. The code is in ROS1 so if you want to use ROS2. Change the compatiablity
 4. Ubuntu 20.04( Seeing that ROS1 stop updating on May 2025, theirs good chance you need ROS2) https://releases.ubuntu.com/20.04/,
 5. Download the desktop image version if you putting in the virutal Box,
@@ -79,4 +79,7 @@ or manaul do it
 <img width="759" height="435" alt="image" src="https://github.com/user-attachments/assets/f06e7970-6820-4125-9301-c2ab238ec9bb" />
 
 
+run the code
+source ~/teknic_motors/devel/setup.bash
+rosrun motor_control sinusoidal_velocity_node
 
